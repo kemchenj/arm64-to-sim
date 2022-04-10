@@ -7,7 +7,8 @@ let package = Package(
         .macOS(.v11)
     ],
     products: [
-        .executable(name: "arm64-to-sim", targets: ["arm64-to-sim"])
+        .executable(name: "arm64-to-sim", targets: ["arm64-to-sim"]),
+        .library(name: "Arm64ToSimLib", targets: ["Arm64ToSimLib"]),
     ],
     dependencies: [
     ],
